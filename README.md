@@ -2,6 +2,9 @@
 
 https://www.youtube.com/watch?v=as1QfC2L0Og
 
+Obs: https://www.youtube.com/watch?v=uP8IQt8W2oA - Isso aqui vai fazer seus ouvidos salivarem. (3:46) -> Mas não pula, só pra você saber onde voltar. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

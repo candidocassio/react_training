@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld'
-
-
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 function App() {
 
-  const name = "Cássio";
+  const name = "VARIAVEL const";
 
   const newName = name.toUpperCase();
 
@@ -16,17 +16,16 @@ function App() {
   const url = 'https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png'
   return (
     <div className="App">
-      <h1>Olá REACT</h1>
-      <p>Meu primeiro React APP</p>
+      <SayMyName nome= "Cássio"/>
+      <SayMyName nome="Marcos"/>
+      <SayMyName nome={name}/>
 
-      <p>Olá, {newName}</p>
-
-      <p>Soma: {soma(2,2)}</p>
-
-      <img src={url} alt="Minha Imagem" />
-
-      <HelloWorld />
-
+      <Pessoa 
+        nome="Cássio - 02" 
+        idade="26" 
+        profissao="Desenvolvedor" 
+        foto="https://via.placeholder.com/150"
+      />
     </div>
   );
 }
