@@ -1,3 +1,7 @@
+### Playlist do rolê
+
+https://www.youtube.com/watch?v=as1QfC2L0Og
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
